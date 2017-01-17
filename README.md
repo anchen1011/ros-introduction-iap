@@ -10,5 +10,7 @@ For MIT IAP class 2016-2017 (organized under SIPB IAP)
 6. `sudo rosdep init`
 7. `rosdep update`
 8. [optional] `echo "source /opt/ros/jade/setup.bash" >> ~/.bashrc`
-9. [if you've done 8.] `source ~/.bashrc` [if not (do this every time you open a terminal to work on ROS)] `source /opt/ros/jade/setup.bash`
+9. *[if you've done 8.]* `source ~/.bashrc` 
+
+*[if not (do this every time you open a terminal to work on ROS)]* `source /opt/ros/jade/setup.bash`
 10. 
