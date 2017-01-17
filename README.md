@@ -33,5 +33,6 @@ For MIT IAP class 2016-2017 (organized under SIPB IAP)
 ## create your package
 0. stay with the same terminal
 1. `cd ~/catkin_ws/src`
-2. `catkin_create_pkg iap_tutorial std_msgs rospy` [command: catkin_create_pkg] [package name: iap_tutorial] [asadf]
-3. 
+2. `catkin_create_pkg iap_tutorial std_msgs rospy` [command package-name dependency-1 dependency-2 ...]
+3. `cd iap_tutorial`
+4. modify package.xml information
