@@ -48,4 +48,5 @@ we'll talk about rosed later
 4. `mkdir src` put c++ source code here
 5. `mkdir scripts` put python source code here
 6. `mkdir srv` put services here
-7. 
+7. find a proper directory. e.g. `cd ~`
+8. `git clone https://github.com/anchen1011/ros-introduction-iap.git` clone this tutorial package. You will see 
