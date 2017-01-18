@@ -29,6 +29,7 @@ For MIT IAP class 2016-2017 (organized under SIPB IAP)
 1. `rospack find [pkg]` e.g. `rospack find roscpp`
 2. `roscd [pkg/subdir]` e.g. `roscd rospy` or `roscd rospy/cmake`
 3. `rosls [pkg/subdir]` e.g. `rosls rospy` or `rosls rospy/cmake`
+4. `rosed [pkg] [filename]` editor by default is vim. change  talk about it later
 
 ## create your package
 0. stay with the same terminal
@@ -36,3 +37,5 @@ For MIT IAP class 2016-2017 (organized under SIPB IAP)
 2. `catkin_create_pkg iap_tutorial std_msgs rospy` [command package-name dependency-1 dependency-2 ...]
 3. `cd iap_tutorial`
 4. modify package.xml information
+
+## 
