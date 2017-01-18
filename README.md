@@ -49,4 +49,16 @@ we'll talk about rosed later
 5. `mkdir scripts` put python source code here
 6. `mkdir srv` put services here
 7. find a proper directory. e.g. `cd ~`
-8. `git clone https://github.com/anchen1011/ros-introduction-iap.git` clone this tutorial package. You will see 
+8. `git clone https://github.com/anchen1011/ros-introduction-iap.git` clone this tutorial package. You will see 2 folders inside: sample and exercise. The package inside sample is the complete package for reference, the exercise package is the one we're going to make use to finish this project.
+9. There are 6 files in exercise folder. Then I'm going to introduce how each of them works, and how to further code the package.
+
+## Run
+0. start a terminal, `roscore`
+1. start 2 terminals, do 2-5 for both of them
+2. `cd ~/catkin_ws`
+3. `. devel/setup.bash`
+4. `catkin_make`
+5. `catkin_make install`
+6. start server with `rosrun iap_tutorial add_two_ints_server.py` in one of the terminal
+7. call client in the other terminal `rosrun beginner_tutorials add_two_ints_client.py [x] [y]`   
+e.g. `rosrun beginner_tutorials add_two_ints_client.py 4 5`
