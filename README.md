@@ -60,5 +60,5 @@ we'll talk about rosed later
 4. `catkin_make`
 5. `catkin_make install`
 6. start server with `rosrun iap_tutorial add_two_ints_server.py` in one of the terminal
-7. call client in the other terminal `rosrun beginner_tutorials add_two_ints_client.py [x] [y]`   
-e.g. `rosrun beginner_tutorials add_two_ints_client.py 4 5`
+7. call client in the other terminal `rosrun iap_tutorial add_two_ints_client.py [x] [y]`   
+e.g. `rosrun iap_tutorial add_two_ints_client.py 4 5`
