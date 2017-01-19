@@ -36,7 +36,7 @@ we'll talk about rosed later
 ### create your package
 0. stay with the same terminal
 1. `cd ~/catkin_ws/src`
-2. `catkin_create_pkg iap_tutorial std_msgs rospy` [command package-name dependency-1 dependency-2 ...]
+2. `catkin_create_pkg iap_tutorial std_msgs rospy`--rosdistro hydro" [command package-name dependency-1 dependency-2 ...]
 3. `cd iap_tutorial`
 4. modify package.xml information
 
